@@ -25,7 +25,11 @@ public class Main {
 		//Ler um char
 		char letra; 
 		letra = sc.next().charAt(0); 
-		System.out.println("A Letra informada foi :" + letra);
+		System.out.println("A Letra informada foi: " + letra);
+		
+		//Ler uma variável do tipo string com quebra de linha
+		nome = sc.nextLine(); 
+		System.out.println("O nome informado foi: " + nome);
 		
 		sc.close();
 	}
